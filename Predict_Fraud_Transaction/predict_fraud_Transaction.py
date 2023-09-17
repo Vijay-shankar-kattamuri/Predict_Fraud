@@ -38,7 +38,7 @@ new_dataset.tail()
 new_dataset['class'].value_counts()
 
 new_dataset.groupby('class').mean()
-
+# X=feature_variable,Y=target_variable
 X = new_dataset.drop(['class'], axis=1)  
 Y = new_dataset['class']  
 
